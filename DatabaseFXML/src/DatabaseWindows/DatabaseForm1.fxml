@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1217.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DatabaseWindows.DatabaseForm1Controller">
+   <children>
+      <Button fx:id="Button3Show" layoutX="278.0" layoutY="672.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="94.0" text="Show ">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="Button2SendEmail" layoutX="1142.0" layoutY="750.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="61.0" text="Send">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="Button1Clear" layoutX="388.0" layoutY="672.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="94.0" text="Clear">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextArea fx:id="TextArea1Output" editable="false" layoutX="12.0" layoutY="42.0" prefHeight="621.0" prefWidth="1193.0">
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <CheckBox fx:id="CheckBox1Greetings" layoutX="494.0" layoutY="667.0" mnemonicParsing="false" onAction="#handleCheckBox1Greetings" prefHeight="41.0" prefWidth="208.0" text="Show greetings">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="732.0" layoutY="687.0" text="Add new string in database:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="Button4AddAccount" layoutX="1142.0" layoutY="682.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="61.0" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="TextField1AddAccount" layoutX="904.0" layoutY="682.0" prefHeight="30.0" prefWidth="238.0" promptText="enter information">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <TextField fx:id="TextField2SendEmail" layoutX="904.0" layoutY="750.0" prefHeight="30.0" prefWidth="238.0" promptText="enter your message">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="733.0" layoutY="755.0" text="Send a email to employees:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextField3RunSQL" layoutX="904.0" layoutY="716.0" prefHeight="30.0" prefWidth="238.0" promptText="enter SQL inquiry">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="805.0" layoutY="721.0" text="Run SQL query:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="Button5RunSQL" layoutX="1142.0" layoutY="716.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="61.0" text="Run">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="562.0" layoutY="7.0" text="DATABASE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="ChoiceBox1SelectDB" layoutX="113.0" layoutY="672.0" prefHeight="30.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="677.0" text="Select database:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="Button6Generate" layoutX="262.0" layoutY="775.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="68.0" text="Generate" />
+      <TextField fx:id="TextField4Generate" layoutX="113.0" layoutY="775.0" prefHeight="30.0" prefWidth="149.0" promptText="enter the number of lines" />
+   </children>
+</Pane>
